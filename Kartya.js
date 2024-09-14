@@ -10,8 +10,8 @@ export default class Kartya {
 
     bandaKiir() {
         this.#szuloElem.append(`
-            <div class = "card">
-                <div class = "card-body-lg-4 col-md-6">
+            <div class = "card col-lg-3 col-md-6">
+                <div class = "card-body">
                     <h3 class = "card-title">${this.#obj.nev}</h3>
                     <img src = "${this.#obj.kep}" alt = "banda">
                     <p>${this.#obj.leiras}</p>
