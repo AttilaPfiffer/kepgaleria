@@ -7,11 +7,11 @@ export default class Kartyak {
         this.#lista = lista
         this.#taroloElem = taroloElem
         this.#taroloElem.empty()
-        this.kutyakKiir()
+        this.bandakKiir()
     }
 
     
-    kutyakKiir() {
+    bandakKiir() {
         this.#lista.forEach((elem) => {
             console.log(elem);
             new Kartya(elem, this.#taroloElem);
