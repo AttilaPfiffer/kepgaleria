@@ -1,8 +1,4 @@
-import { adatok } from "./adatok.js";
-import Játéktér from "./Játéktér.js";
+import { adatok } from "./model/adatok.js";
+import GaleriaKontroller from "./controller/GaleriaKontroller.js";
 
-
-const taroloElem = $(".mezo");
-
-new Játéktér(adatok, taroloElem)
-
+new GaleriaKontroller()

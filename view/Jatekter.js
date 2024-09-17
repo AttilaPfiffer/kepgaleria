@@ -1,6 +1,6 @@
 import Kartya from "./Kartya.js"
 
-export default class Kartyak {
+export default class Jatekter {
     #lista = []
     #taroloElem
     constructor(lista, taroloElem) {
@@ -13,8 +13,9 @@ export default class Kartyak {
     
     bandakKiir() {
         this.#lista.forEach((elem) => {
-            console.log(elem);
             new Kartya(elem, this.#taroloElem);
         })
     }
+
+    
 }
